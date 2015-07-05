@@ -5,6 +5,10 @@ body {
   color: #FFFFFF;
 }
 
+input {
+  color: #666666;
+}
+
 #main-container {
   text-align: center;
 }
