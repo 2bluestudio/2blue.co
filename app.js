@@ -17,9 +17,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-
 // Configure and include routing for the Express App
 app.use('/', index);
+app.use(express.static(__dirname + '/public'));
 //app.use('/admin', admin);
 
 

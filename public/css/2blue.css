@@ -1,0 +1,10 @@
+/* Custom Styles for 2blue.co */
+body {
+  margin-top: 40px;
+  background-color: #3966B0;
+  color: #FFFFFF;
+}
+
+#main-container {
+  text-align: center;
+}
